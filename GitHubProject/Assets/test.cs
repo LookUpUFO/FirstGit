@@ -8,12 +8,15 @@ public class test : MonoBehaviour {
 	void Start () {
         while (true)
         {
-
+            //主程修改
         }
 	}
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+	// 主程删除
+
+    //主程添加
+    void OnEnable()
+    {
+        
+    }
 }
